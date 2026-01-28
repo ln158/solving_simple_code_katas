@@ -9,11 +9,11 @@
 # Side effects
 #    - None
 def count_characters(text, character):
-    count = 0
-    for letter in text: 
+     count = 0
+     for letter in text: 
         if letter==character:
             count +=1
-    return count
+     return count
 print(count_characters("Its a fantastic day", "a"))
 
 # Tasks 
