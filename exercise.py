@@ -8,7 +8,10 @@
 # Side effects
 #    - None
 def make_initials(fullname):
-    pass
+    names = fullname.split()
+    firstname = names[0][0]
+    surname= names[1][0]
+    return firstname + "."+ surname
 
 
 # Tasks
